@@ -7,26 +7,11 @@
 
   }
 
-  .post-image {
-    flex: 0 0 25%; /* Image takes up 40% of the container */
-    margin-right: 5%; /* Adjust margin to create space between image and content */
-    margin-left: 2%;
-   
-  }
-  
-  .post-image img {
-    width: 100%; /* Adjust the width as needed */
-    height: auto; /* Maintain the aspect ratio */
-    max-width: 100%; /* Ensure the image doesn't exceed its container width */
-    border: 5px solid #302f2f;
-    border-radius: 10px;
-  }
-
   .post-content {
     flex: 0 0 75%; /* Content takes up 60% of the container */
     margin-right: 5%;
 
-    margin-left: 2%;
+    margin-left: 3%;
   }
   
   .post-content .post_title {

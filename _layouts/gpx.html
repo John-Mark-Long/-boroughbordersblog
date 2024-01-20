@@ -1,5 +1,7 @@
 ---
 layout: default
+title: gpxfiles
+permalink: /gpx
 ---
 
 <div class="homepage_posts-list">
@@ -10,11 +12,7 @@ layout: default
           <a href="{{ post.url | absolute_url}}"><img src="{{ post.image | absolute_url}}"  alt="{{ post.title }}"></a>
         {% endif %}
       </div>
-      <div class="homepage_post-content">
-        <h2><a href="{{ post.url | absolute_url}}">{{ post.title }}</a></h2>
-        <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-      </div>
-    </div>
+
   {% endfor %}
 </div>
 
