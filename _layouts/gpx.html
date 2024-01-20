@@ -4,15 +4,15 @@ title: gpxfiles
 permalink: /gpx
 ---
 
-<div class="homepage_posts-list">
+<div class="gpx_posts-list">
   {% for post in site.posts %}
-    <div class="homepage_post">
-      <div class="homepage_post-image">
-        {% if post.image %}
-          <a href="{{ post.url | absolute_url}}"><img src="{{ post.image | absolute_url}}"  alt="{{ post.title }}"></a>
+  <div class="gpx_post">
+      <div class="gpx_post-content">
+        {% if post.gpx %}
+          <a href="{{ post.gpx | absolute_url}}"><h2>Islington.gpx</h2></a>
         {% endif %}
       </div>
-
+    </div>
   {% endfor %}
 </div>
 

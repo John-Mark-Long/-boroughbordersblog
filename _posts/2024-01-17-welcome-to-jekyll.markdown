@@ -4,6 +4,7 @@ title:  "Islington"
 date:   2024-01-17 21:28:43 +0000
 categories: jekyll update
 image: assets/Images/Islington.PNG
+gpx: https://drive.google.com/file/d/1LoojbADeCT__qoaFoPO4N7U7jiQC-cj4/view?usp=drive_link
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

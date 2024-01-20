@@ -1,0 +1,29 @@
+.gpx_posts-list {
+    width: 100%;
+  }
+  
+  .gpx_post {
+    display: flex;
+    align-items: left;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+  }
+
+  .gpx_post-content {
+    flex: 0 0 75%; /* Content takes up 60% of the container */
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-left: 5%;
+  }
+  
+  .gpx_post-content h2 {
+    margin: 0 0 10px 0;
+
+  }
+  
+  .gpx_post-content p {
+    margin: 0;
+
+  }
+  

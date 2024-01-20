@@ -1,0 +1,23 @@
+---
+layout: default
+title: contact
+permalink: /contact
+---
+
+<div class="gpx_posts-list">
+  {% for post in site.posts %}
+  <div class="gpx_post">
+      <div class="gpx_post-content">
+        {% if post.gpx %}
+          <h3>Hi, thank you for taking the time to look at my page. If you have any questions please feel free to 
+            contact me at <span class="highlight">borderboroughrun@gmail.com</span> </h3>
+          <h3>Follow me on Garmin Connect <a class="highlight" href="https://connect.garmin.com/modern/profile/8012354a-cbe4-4794-b7b0-98e196e69834"> Here</a> </h3>
+          <h3>Follow me on Strava <a class="highlight" href="https://www.strava.com/athletes/20419432"> Here</a> </h3>
+        {% endif %}
+
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+
