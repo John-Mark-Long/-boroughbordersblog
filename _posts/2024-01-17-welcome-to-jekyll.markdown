@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Islington"
 date:   2024-01-17 21:28:43 +0000
 categories: jekyll update
 image: assets/Images/Islington.PNG

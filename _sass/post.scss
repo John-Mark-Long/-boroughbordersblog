@@ -1,25 +1,20 @@
-.posts-list {
-    width: 100%;
-  }
-  
-  .homepage_post {
+
+  .post {
     display: flex;
     align-items: left;
-    margin-bottom: 20px;
+
 
 
   }
 
-  .homepage_post-image {
+  .post-image {
     flex: 0 0 25%; /* Image takes up 40% of the container */
     margin-right: 5%; /* Adjust margin to create space between image and content */
     margin-left: 2%;
    
-
-
   }
   
-  .homepage_post-image img {
+  .post-image img {
     width: 100%; /* Adjust the width as needed */
     height: auto; /* Maintain the aspect ratio */
     max-width: 100%; /* Ensure the image doesn't exceed its container width */
@@ -27,18 +22,19 @@
     border-radius: 10px;
   }
 
-  .homepage_post-content {
+  .post-content {
     flex: 0 0 75%; /* Content takes up 60% of the container */
     margin-right: 5%;
-    margin-top: 2%;
+
+    margin-left: 2%;
   }
   
-  .homepage_post-content h2 {
+  .post-content .post_title {
     margin: 0 0 10px 0;
 
   }
   
-  .homepage_post-content p {
+  .post-content p {
     margin: 0;
 
   }

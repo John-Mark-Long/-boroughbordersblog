@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>{{ page.title }}</title>
-</head>
-<body>
-  {% include header.html %}
-  {{ content }}
-  {% include footer.html %}
-</body>
-</html>
+---
+layout: default
+---
+
+  <div class="post">
+    <div class="post-content">
+      <p class="post_title">{{ page.title }}</p>
+      <p>{{ content}}</p>
+    </div>
+  </div>

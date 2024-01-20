@@ -2,15 +2,15 @@
 layout: default
 ---
 
-<div class="posts-list">
+<div class="homepage_posts-list">
   {% for post in site.posts %}
-    <div class="post">
-      <div class="post-image">
+    <div class="homepage_post">
+      <div class="homepage_post-image">
         {% if post.image %}
           <img src="{{ post.image }}" alt="{{ post.title }}">
         {% endif %}
       </div>
-      <div class="post-content">
+      <div class="homepage_post-content">
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
         <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
       </div>
