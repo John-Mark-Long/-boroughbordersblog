@@ -7,7 +7,7 @@ layout: default
     <div class="homepage_post">
       <div class="homepage_post-image">
         {% if post.image %}
-          <img src="{{ post.image }}" alt="{{ post.title }}">
+          <img src="{{ post.image | absolute_url}}" alt="{{ post.title }}">
         {% endif %}
       </div>
       <div class="homepage_post-content">
