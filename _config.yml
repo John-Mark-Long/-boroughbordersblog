@@ -21,9 +21,40 @@
 title: Run The Borough Borders
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Running London. London Boroughs. Run London. Marathon. Ultra Marathon. 10km. Adventure. London. Run.
+  Kingston_upon_Thames.
+  Croydon.
+  Bromley.
+  Hounslow.
+  Ealing.
+  Havering.
+  Hillingdon.
+  Harrow.
+  Brent.
+  Barnet.
+  Lewisham.
+  Greenwich.
+  Bexley.
+  Enfield.
+  Waltham_Forest.
+  Lambeth.
+  Redbridge.
+  Sutton.
+  Richmond_upon_Thames.
+  Merton.
+  Wandsworth.
+  Hammersmith_and_Fulham.
+  Southwark.
+  Kensington_and_Chelsea.
+  City_of_London.
+  Westminster.
+  Camden.
+  Tower_Hamlets.
+  Islington.
+  Hackney.
+  Haringey.
+  Newham.
+  Barking_and_Dagenham.
 baseurl: "/boroughbordersblog" # the subpath of your site, e.g. /blog
 url: "https://john-mark-long.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
